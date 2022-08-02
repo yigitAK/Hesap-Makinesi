@@ -19,6 +19,7 @@ public class Main {
         number2 = input.nextInt();
 
         System.out.println("\nToplama (1)");
+        System.out.println("Çıkarma (2)");
 
         System.out.println("Yapmak istediğiniz işlem için uygun sayıyı giriniz:");
         operation = input.nextInt();
@@ -27,6 +28,8 @@ public class Main {
             case 1:
                 System.out.println(number1+number2);
 
+            case 2:
+                System.out.println(number1-number2);
         }
 
     }
